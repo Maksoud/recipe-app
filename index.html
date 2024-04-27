@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipe App</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="mobile-container">
+            <header>
+                <input type="text" id="search-term" placeholder="Pesquisar..." />
+                <button id="search"><i class="fas fa-search"></i></button>
+            </header>
+            <div class="fav-container">
+                <div>
+                    <h3>Refeições Favoritas</h3>
+                </div>
+                <div class="fav-cont-list">
+                	<ul class="fav-meals" id="fav-meals">
+                        <!-- List of favourite meals -->
+                    </ul>
+                </div>
+            </div>
+            <div class="meals" id="meals">
+                <!-- Random Meals -->
+            </div>
+        </div>
+        <div id="meal-popup" class="popup-container hidden">
+            <div class="popup">
+                <button id="close-popup" class="close-popup"><i class="fas fa-times"></i></button>
+                <div class="meal-info" id="meal-info">
+                	<!-- Show meal info popup here -->
+                </div>
+            </div>    
+        </div>
+    </body>
+    <footer>
+        <script type="text/javascript" src="./script.js"></script>
+    </footer>
+</html>
+<!-- https://www.youtube.com/watch?v=dtKciwk_si4&t=1870s -->
